@@ -87,7 +87,7 @@ li a:hover {
   height: 25em;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 705px) {
   .startpage-img-2 {
     display: none;
   }
@@ -139,7 +139,14 @@ li a:hover {
 
 .container3 {
   grid-gap: 5px;
-  margin-bottom: 1em;
+  overflow: hidden;
+  margin: auto 1em 1em 1em;
+}
+
+.mini-gallery-image img {
+  float: left;
+  width: 100%;
+  height: 100%;
 }
 
 /* Section content // */
@@ -168,13 +175,18 @@ li a:hover {
 
 /* Header content // */
 /* Section content */
-.container5 div {
+.container5 div a {
   display: flex;
 }
 
 .container5 {
   grid-gap: 10px;
   margin: 2em;
+}
+
+.container5 img {
+  height: 100%;
+  width: 100%;
 }
 
 .gallery-image:hover {
