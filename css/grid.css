@@ -142,7 +142,7 @@
 
 .container6 footer {
   grid-column: 1/-1;
-  grid-row: 4/5;
+  grid-row: 4/-1;
 }
 
 /* About Section */
