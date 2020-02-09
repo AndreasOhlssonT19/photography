@@ -156,10 +156,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(auto-fit, auto);
-  height: auto;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 @media only screen and (max-width: 705px) {
