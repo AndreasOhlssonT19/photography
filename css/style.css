@@ -46,7 +46,7 @@ nav {
   border-radius: 50%;
   height: 49px;
   width: auto;
-  margin: 0 0 0 14px;
+  margin: 0 0 0 0.5em;
 }
 
 .navigation-bar img:hover {
@@ -177,13 +177,13 @@ nav {
 footer {
   display: block;
   background-color: rgba(47, 54, 64, 1);
+  overflow: auto;
 }
 
 footer a {
   display: block;
   margin: 1em auto;
   padding: 1em 2em;
-  background-color: rgba(47, 54, 64, 1);
   color: rgba(255, 255, 255, 1);
   text-align: center;
   text-decoration: none;
@@ -244,11 +244,9 @@ footer a:hover {
   width: 100%;
 }
 
-.gallery-image:hover {
+.container5 img:hover {
   opacity: 75%;
 }
-
-.container5 a {}
 
 /* Section content // */
 /* Gallery // */
