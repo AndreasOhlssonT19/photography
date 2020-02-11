@@ -1,3 +1,4 @@
+// About , Image slideow
 var slideIndex = 0;
 
 function showSlides() {
@@ -14,6 +15,7 @@ function showSlides() {
   setTimeout(showSlides, 8000); // Change image every 8 seconds
 }
 
+// Gallery , Show images in new tab
 function showimage(x) {
   var image = x.src;
   window.open(image, "_new");
